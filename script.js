@@ -4,7 +4,7 @@ const button = document.querySelector('button')
 const containerWidth =  500
 
 function creatDivs(num) {
-    const totalBorderWidth = num * 2 //each divs have border of each side
+    const totalBorderWidth = num //each divs have border of each side
     const divsSive = (containerWidth - totalBorderWidth) / num
     container.innerHTML = ''
     for (let i = 1; i <= (num * num); i ++) {
