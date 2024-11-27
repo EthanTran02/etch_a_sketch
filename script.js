@@ -11,7 +11,6 @@ function creatDivs(num) {
         const div = document.createElement('div')
         const num = document.createElement('p')
     
-        num.textContent = `${i}`
     
         container.appendChild(div)
         div.appendChild(num)
